@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.message button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: transparent;
+}
+
+.message button:hover {
+  background-color: #7d7d7d;
+}
+
+.modal-content {
+  width: 1080px;
+}
+
+#root {
+  height: 100vh;
+}
+
+.tabs {
+  position: relative;
+  height: 5%;
+}
+
+.europeContainer {
+  position: relative;
+  height: 90%;
+}
+
+img {
+  position: relative;
+  height: 100%;
+}
+
